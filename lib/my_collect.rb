@@ -1,9 +1,3 @@
-def my_collect(students) 
-  students do |student|
-    student.split(" ").first
-end
-end
-
 def my_collect(array)
   i = 0
   collection = []

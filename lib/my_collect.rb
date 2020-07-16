@@ -1,5 +1,5 @@
 def my_collect(students) 
-  my_collect(students) do |student|
+  students do |student|
     student.split(" ").first
 end
 end
